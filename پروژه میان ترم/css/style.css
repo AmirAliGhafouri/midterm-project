@@ -10,6 +10,34 @@
     src: url(../fonts/iransansweb.woff2) format('woff2');
 }
 
+
+@media only screen and (min-width: 1366px){
+
+    .pic img{
+
+        width: 800px;
+        height: 800px;
+        border-radius: 800px;
+    }
+
+    .pic{
+        margin-top: 730px;
+    }
+
+    .logo img{
+        width: 170px;
+    }
+
+    .page-title h1{
+        font-size: 50px;
+    }
+
+    .page-title span{
+        font-size: 25px;
+    }
+}
+
+
 @media only screen and (max-width: 1366px){
 
     .pic img{
